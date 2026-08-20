@@ -86,7 +86,7 @@ class MultiAgentOrchestrator:
         }
 
 def main():
-    parser = argparse.ArgumentParser(description="Programmatic AI Affiliate Multi-Agent Orchestrator")
+    parser = argparse.ArgumentParser(description="TechSpec Digest Multi-Agent Content Engine")
     parser.add_argument("--niche", type=str, default="all", help="Target niche ID to process (or 'all')")
     parser.add_argument("--count", type=int, default=1, help="Number of posts to generate per niche")
     parser.add_argument("--dry-run", action="store_true", help="Run without writing files to disk")

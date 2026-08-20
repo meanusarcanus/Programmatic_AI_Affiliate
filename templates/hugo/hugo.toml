@@ -36,7 +36,7 @@ disableKinds = ["taxonomy", "term"]
 # Author & Meta Defaults
 [params]
   description = '{{ .SiteDescription }}'
-  author = 'Editorial Team'
+  author = 'TechSpec Editorial Team'
   dateFormat = 'January 2, 2006'
   showWordCount = true
   showReadingTime = true

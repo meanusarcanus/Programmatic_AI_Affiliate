@@ -1,6 +1,6 @@
 baseURL = 'https://meanusarcanus.github.io/Programmatic_AI_Affiliate/'
 languageCode = 'en-us'
-title = 'Programmatic AI Affiliate Traffic Engine'
+title = 'TechSpec Digest'
 
 # Performance & Rendering Settings
 enableRobotsTXT = true
@@ -34,8 +34,8 @@ disableKinds = ["taxonomy", "term"]
 
 # Author & Meta Defaults
 [params]
-  description = 'Programmatic AI Affiliate Network providing in-depth technical guides across 10 micro-niches.'
-  author = 'Editorial Team'
+  description = 'TechSpec Digest provides in-depth technical specifications, compliance standards, and field-tested buyer reviews across specialized micro-niches.'
+  author = 'TechSpec Editorial Team'
   dateFormat = 'January 2, 2006'
   showWordCount = true
   showReadingTime = true
