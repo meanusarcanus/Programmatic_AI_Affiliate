@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article style="max-width: 850px; margin: 0 auto;">
+  <header style="margin-bottom: 2rem;">
+    <div style="font-size: 0.85rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+      {{ with .Params.categories }}{{ index . 0 }}{{ end }}
+    </div>
+    <h1 style="font-size: 2.25rem; font-weight: 800; line-height: 1.25; margin-bottom: 1rem;">
+      {{ .Title }}
+    </h1>
+    <div style="font-size: 0.875rem; color: var(--text-muted); display: flex; gap: 1rem; align-items: center;">
+      <span>Published: {{ .Date.Format "January 2, 2006" }}</span>
+      <span>&bull;</span>
+      <span>{{ .ReadingTime }} min read</span>
+    </div>
+  </header>
+
+  <div class="disclosure-banner">
+    {{ .Site.Params.affiliateDisclosure }}
+  </div>
+
+  <div class="content" style="font-size: 1.05rem; line-height: 1.75; color: #e2e8f0;">
+    {{ .Content }}
+  </div>
+
+  <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+    {{ with .Params.tags }}
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="color: var(--text-muted); font-size: 0.875rem;">Tags:</span>
+        {{ range . }}
+          <span style="background: var(--card-bg); border: 1px solid var(--border); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; color: var(--accent);">#{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+  </footer>
+</article>
+{{ end }}
