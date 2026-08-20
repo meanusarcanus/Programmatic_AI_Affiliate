@@ -1,0 +1,59 @@
+baseURL = 'https://{{ .SiteName }}.github.io/'
+languageCode = 'en-us'
+title = '{{ .SiteTitle }}'
+theme = 'ananke'
+
+# Performance & Rendering Settings
+enableRobotsTXT = true
+canonifyURLs = true
+paginate = 10
+summaryLength = 40
+disableKinds = ["taxonomy", "term"]
+
+# Markup & Markdown Rendering Engine Configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Allows raw HTML for affiliate buttons & callout widgets
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
+
+# Automated XML Sitemap Configuration
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.8
+
+# Outputs
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# Author & Meta Defaults
+[params]
+  description = '{{ .SiteDescription }}'
+  author = 'Editorial Team'
+  dateFormat = 'January 2, 2006'
+  showWordCount = true
+  showReadingTime = true
+  showRelatedPosts = true
+  
+  # Custom Affiliate Disclosure Banner
+  affiliateDisclosure = 'Disclaimer: Some links on this site are affiliate links. If you purchase through these links, we may earn a commission at zero extra cost to you.'
+
+# Navigation Menu
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Guides & Reviews'
+    url = '/posts/'
+    weight = 2

@@ -1,0 +1,72 @@
+{
+  "id": "crypto_cold_storage",
+  "name": "Digital Asset Security & Cold Storage for Senior Crypto/NFT Holders",
+  "tagline": "Air-Gapped Hardware Vaults, Stainless Steel Backup Plates & Estate Planning Protocols",
+  "core_angle": "Ultra-secure, non-custodial cold storage solutions and inheritance workflows designed for non-technical long-term crypto holders and high-net-worth seniors.",
+  "target_audience": "Long-term Bitcoin/Ethereum investors, retirees holding digital assets, estate planners, non-technical seniors seeking self-custody protection.",
+  "seed_keywords": [
+    "fireproof metal seed phrase backup plate comparison",
+    "passing down hardware wallet bitcoin to heirs without key leak",
+    "ledger flex vs trezor safe 5 touchscreen security for seniors",
+    "air gapped QR code hardware wallet cold storage setup",
+    "crypto digital estate planning software for non technical heirs",
+    "how to store seed phrase in safe deposit box securely"
+  ],
+  "affiliates": [
+    {
+      "name": "Ledger Official",
+      "program": "Impact / Direct",
+      "tracking_tag": "affid=cryptocold-20",
+      "base_url": "https://shop.ledger.com?referral=",
+      "anchors": [
+        "Ledger Flex Touchscreen Secure Element Hardware Wallet",
+        "Ledger Stax Curved E-Ink Cold Storage Device",
+        "Ledger Recover Encrypted Key Backup Service"
+      ]
+    },
+    {
+      "name": "Trezor Official",
+      "program": "ShareASale / Direct",
+      "tracking_tag": "affid=cryptocold-20",
+      "base_url": "https://trezor.io?aff=",
+      "anchors": [
+        "Trezor Safe 5 Secure Element Hardware Wallet",
+        "Trezor Keep Metal 24-Word Stainless Steel Recovery Plate"
+      ]
+    },
+    {
+      "name": "Cryptosteel / Keystone / OneKey",
+      "program": "Direct Affiliate Program",
+      "tracking_tag": "affid=cryptocold-20",
+      "base_url": "https://cryptosteel.com?aff=",
+      "anchors": [
+        "Cryptosteel Capsule Solo Stainless Steel Master Backup",
+        "Keystone Pro Air-Gapped Camera Hardware Wallet",
+        "Billfodl Laser-Cut Stainless Steel Seed Storage Case"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "Fireproof and melt-point testing: Cryptosteel Capsule vs Billfodl titanium plates at 2,000°F",
+    "The 3-layer crypto estate inheritance protocol: How non-technical heirs can access funds without risk of theft",
+    "Bluetooth vs USB-C vs Air-Gapped QR code hardware wallets: Risk analysis for senior investors",
+    "Multi-sig 2-of-3 wallet setups made simple using Sparrow Wallet and metal backups"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Hardware Cryptographic & Tamper-Resistance Analysis",
+      "Cold Storage & Metal Backup Spec Comparison Matrix",
+      "Step-by-Step Estate Inheritance Setup Guide",
+      "Pros & Cons of Air-Gapped vs Connected Wallets",
+      "Senior Asset Security FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["Crypto is the future", "To the moon", "In summary"]
+    }
+  }
+}

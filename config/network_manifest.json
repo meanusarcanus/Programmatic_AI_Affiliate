@@ -1,0 +1,88 @@
+{
+  "network_version": "1.0.0",
+  "engine_name": "Programmatic Affiliate Traffic Engine",
+  "default_generator": "hugo",
+  "publishing_frequency": "3x_weekly",
+  "niched_repositories": [
+    {
+      "id": "urban_renter_power",
+      "name": "Urban Renters Portable Power & Battery Hub",
+      "repo_name": "affiliate-urban-renter-power",
+      "config_file": "config/niches/urban_renter_power.json",
+      "output_content_dir": "content/urban_renter_power/posts",
+      "target_domain": "urbanrenterpower.github.io"
+    },
+    {
+      "id": "solo_microbiz_security",
+      "name": "Solo Micro-Business Zero-Trust Cyber Security",
+      "repo_name": "affiliate-solo-microbiz-security",
+      "config_file": "config/niches/solo_microbiz_security.json",
+      "output_content_dir": "content/solo_microbiz_security/posts",
+      "target_domain": "solomicrobizsecurity.github.io"
+    },
+    {
+      "id": "animator_ergonomics",
+      "name": "Digital Animator & Sculptor Ergonomic Gear",
+      "repo_name": "affiliate-animator-ergonomics",
+      "config_file": "config/niches/animator_ergonomics.json",
+      "output_content_dir": "content/animator_ergonomics/posts",
+      "target_domain": "animatorergonomics.github.io"
+    },
+    {
+      "id": "indie_cosmetic_packaging",
+      "name": "Indie Cosmetic Formulator Low-Waste Packaging",
+      "repo_name": "affiliate-indie-cosmetic-packaging",
+      "config_file": "config/niches/indie_cosmetic_packaging.json",
+      "output_content_dir": "content/indie_cosmetic_packaging/posts",
+      "target_domain": "cosmeticpackaginghub.github.io"
+    },
+    {
+      "id": "senior_pet_health",
+      "name": "Senior Pet DNA & Smart Health Care",
+      "repo_name": "affiliate-senior-pet-health",
+      "config_file": "config/niches/senior_pet_health.json",
+      "output_content_dir": "content/senior_pet_health/posts",
+      "target_domain": "seniorpethealthlab.github.io"
+    },
+    {
+      "id": "family_selfhosting",
+      "name": "Privacy-First Family Self-Hosting & Mini-PCs",
+      "repo_name": "affiliate-family-selfhosting",
+      "config_file": "config/niches/family_selfhosting.json",
+      "output_content_dir": "content/family_selfhosting/posts",
+      "target_domain": "familyselfhost.github.io"
+    },
+    {
+      "id": "trades_leadgen",
+      "name": "Solo Tradespeople Missed-Call & Lead-Gen Automation",
+      "repo_name": "affiliate-trades-leadgen",
+      "config_file": "config/niches/trades_leadgen.json",
+      "output_content_dir": "content/trades_leadgen/posts",
+      "target_domain": "tradesautomation.github.io"
+    },
+    {
+      "id": "closet_voice_studio",
+      "name": "Closet Studio & Home Voice Actor Gear",
+      "repo_name": "affiliate-closet-voice-studio",
+      "config_file": "config/niches/closet_voice_studio.json",
+      "output_content_dir": "content/closet_voice_studio/posts",
+      "target_domain": "closetvoicestudio.github.io"
+    },
+    {
+      "id": "micro_aquascaping_gear",
+      "name": "Micro-Aquascaping Ergonomic Maintenance Tools",
+      "repo_name": "affiliate-micro-aquascaping-gear",
+      "config_file": "config/niches/micro_aquascaping_gear.json",
+      "output_content_dir": "content/micro_aquascaping_gear/posts",
+      "target_domain": "microaquascaping.github.io"
+    },
+    {
+      "id": "crypto_cold_storage",
+      "name": "Senior Crypto & NFT Hardware Cold Storage",
+      "repo_name": "affiliate-crypto-cold-storage",
+      "config_file": "config/niches/crypto_cold_storage.json",
+      "output_content_dir": "content/crypto_cold_storage/posts",
+      "target_domain": "cryptocoldstoragehub.github.io"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "indie_cosmetic_packaging",
+  "name": "Eco-Friendly, Low-Waste Packaging Solutions for Indie Cosmetic Formulators",
+  "tagline": "Sustainable, Preservative-Compliant Containers for Home-Based Skincare Brands",
+  "core_angle": "Small-batch eco-conscious packaging solutions that protect natural formulations from oxidation and bacterial contamination without plastic waste.",
+  "target_audience": "Indie cosmetic chemists, botanical skincare formulators, artisan soap makers, small-batch beauty founders selling on Shopify/Etsy.",
+  "seed_keywords": [
+    "recycled ocean plastic airless pump bottles small MOQ",
+    "compostable padded mailers for fragile glass dropper bottles",
+    "biodegradable paperboard lip balm tubes leakproof test",
+    "preservative compliant eco packaging natural serums",
+    "sustainable refillable skincare jars small batch wholesale",
+    "zero waste label materials for oil resistant cosmetics"
+  ],
+  "affiliates": [
+    {
+      "name": "EcoEnclose",
+      "program": "ShareASale / Direct",
+      "tracking_tag": "affid=indiepack-20",
+      "base_url": "https://www.ecoenclose.com?aff=",
+      "anchors": [
+        "EcoEnclose 100% Recycled Padded Shipping Mailers",
+        "Zero-Waste Water-Activated Custom Printed Shipping Tape",
+        "EcoEnclose Recyclable Glassine Protection Sheets"
+      ]
+    },
+    {
+      "name": "Sustainable Packaging Wholesale",
+      "program": "Direct Affiliate Program",
+      "tracking_tag": "affid=indiepack-20",
+      "base_url": "https://www.sustainablepackaging.com?aff=",
+      "anchors": [
+        "PCR Ocean Plastic Airless Pump Serum Containers",
+        "Compostable Paperboard Push-Up Deodorant Tubes",
+        "Violet Glass UV-Filtering Botanical Oil Bottles"
+      ]
+    },
+    {
+      "name": "Shopify Sustainability Apps",
+      "program": "Shopify Partner Referral",
+      "tracking_tag": "ref=indiepack-20",
+      "base_url": "https://apps.shopify.com/eco-returns?ref=",
+      "anchors": [
+        "EcoCart Carbon Neutral Checkout Integration for Shopify",
+        "Loop Returns Reusable Packaging Platform for Beauty"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "Airless pump bottle testing: PCR plastic vs aluminum for botanical vitamin C serum stability",
+    "How to ship fragile 30ml glass dropper bottles plastic-free with zero breakage rates",
+    "Compostable paperboard tubes for lip balms and solid perfumes: Leakage test under heat",
+    "Oil-resistant bio-based cosmetic labels: Thermal printing compatibility guide"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Formulation Preservation & Oxygen Barrier Rating",
+      "Container Material Specifications & Eco-Certifications Table",
+      "Small-Batch Sourcing & Minimum Order Quantity (MOQ) Guide",
+      "Pros & Cons of PCR Plastics vs Glass vs Paperboard",
+      "Formulator Eco-Packaging FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["Saving the planet", "Going green is vital", "In summary"]
+    }
+  }
+}

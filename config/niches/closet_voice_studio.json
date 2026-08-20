@@ -1,0 +1,72 @@
+{
+  "id": "closet_voice_studio",
+  "name": "Ergonomic & Acoustic Gear for Home Voice Actors / Podcasters",
+  "tagline": "Turn Small Spare Closets into Noise-Free Broadcast-Quality Vocal Recording Booths",
+  "core_angle": "Budget-conscious, space-saving acoustic treatment and isolated microphone rigs designed for home voiceover artists and solo podcasters.",
+  "target_audience": "Voice actors, audiobook narrators, solo podcasters, e-learning creators operating out of bedroom closets or small home nooks.",
+  "seed_keywords": [
+    "closet vocal booth acoustic treatment budget setup",
+    "best usb condenser microphone for closet studio",
+    "high density acoustic foam vs rockwool panels closet",
+    "whisper room alternative DIY closet soundproofing",
+    "compact desktop microphone boom arm for small spaces",
+    "vocal booth reflection filter vs portable isolation shield"
+  ],
+  "affiliates": [
+    {
+      "name": "Sweetwater",
+      "program": "Impact / Direct",
+      "tracking_tag": "sweetwater_id=closetvoice-20",
+      "base_url": "https://www.sweetwater.com/store/detail/?aff=",
+      "anchors": [
+        "Rode NT1 5th Generation XLR/USB Studio Condenser Mic",
+        "Focusrite Scarlett 2i2 4th Gen Audio Interface",
+        "sE Electronics Reflection Filter Pro Vocal Isolation Shield"
+      ]
+    },
+    {
+      "name": "B&H Photo Video",
+      "program": "Impact / Direct",
+      "tracking_tag": "bh_id=closetvoice-20",
+      "base_url": "https://www.bhphotovideo.com/c/product/?aff=",
+      "anchors": [
+        "Rode PSA1+ Professional Studio Boom Arm",
+        "Auralex Acoustics Studiofoam Wedges 2-inch Panels",
+        "Shure SM7B Cardioid Dynamic Microphone with Cloudlifter"
+      ]
+    },
+    {
+      "name": "Amazon Audio Accessories",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=closetvoice-20",
+      "base_url": "https://www.amazon.com/dp/B00N1YPXW2?tag=",
+      "anchors": [
+        "Elgato Wave Mic Arm LP Low Profile Desk Mount",
+        "Audimute Heavyweight Soundproofing Moving Blankets"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "How to deaden boxy room resonance in a 4x4 closet without spending $1,000 on panels",
+    "Dynamic vs Condenser microphones in untreated apartment closets: Noise floor side-by-side test",
+    "Low-profile boom arms vs standard overhead arms for tight voiceover booths",
+    "DIY vocal booth ventilation: Silent inline fan setups for long audiobook narration sessions"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Acoustic Decay & Noise Floor Physics Breakdown",
+      "Audio Gear & Treatment Spec Comparison Matrix",
+      "Closet Vocal Booth Layout & Mounting Blueprint",
+      "Pros & Cons of Portable Shields vs Wall Panels",
+      "Voiceover Studio Ergonomics FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["Audio is everything", "Sound quality matters", "In summary"]
+    }
+  }
+}

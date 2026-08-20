@@ -1,0 +1,72 @@
+{
+  "id": "animator_ergonomics",
+  "name": "Specialized Ergonomic & Accessibility Gear for Digital Animators / Sculptors",
+  "tagline": "Pain-Free Workspace Setups for Blender Artists, ZBrush Sculptors & 3D Animators",
+  "core_angle": "RSI prevention and ergonomic optimization tailored specifically for stylus-heavy, shortcut-demanding 3D sculpting and animation workflows.",
+  "target_audience": "3D artists, ZBrush digital sculptors, Blender animators, concept illustrators suffering from wrist tendonitis, neck strain, or ulnar nerve entrapment.",
+  "seed_keywords": [
+    "best vertical mouse for zbrush sculpting wrist pain",
+    "ergonomic tablet arm setup for wacom cintiq",
+    "split keyboard layouts for blender shortcuts",
+    "preventing neck strain during 10 hour animation sessions",
+    "3dconnexion space-mouse ergonomic workflow setup",
+    "accessible stylus grips for digital artists with arthritis"
+  ],
+  "affiliates": [
+    {
+      "name": "Logitech Ergonomics",
+      "program": "Amazon Associates / Impact",
+      "tracking_tag": "tag=animatorergo-20",
+      "base_url": "https://www.logitech.com/en-us/ergonomics?aff=",
+      "anchors": [
+        "Logitech MX Vertical Ergonomic Wireless Mouse",
+        "Logitech Ergo K860 Split Keyboard for 3D Shortcuts",
+        "Logitech MX Master 3S Precision Mouse for Texturing"
+      ]
+    },
+    {
+      "name": "Wacom / Ergotron",
+      "program": "Amazon Associates / Sweetwater / B&H",
+      "tracking_tag": "tag=animatorergo-20",
+      "base_url": "https://www.ergotron.com?aff=",
+      "anchors": [
+        "Ergotron LX Sit-Stand Monitor Arm for Wacom Cintiq 22",
+        "Wacom Cintiq Pro Ergonomic Stand Extension",
+        "3Dconnexion SpaceMouse Enterprise 3D Navigation Controller"
+      ]
+    },
+    {
+      "name": "Herman Miller Reseller",
+      "program": "ShareASale / Direct",
+      "tracking_tag": "tag=animatorergo-20",
+      "base_url": "https://store.hermanmiller.com?aff=",
+      "anchors": [
+        "Herman Miller Embody Chair for Forward-Lean Sculpting",
+        "Capisco Saddle Chair for Active 3D Animation Positioning"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "The ultimate dual-arm setup: Wacom Cintiq 24 Pro + 4K reference monitor without neck fatigue",
+    "How to program a split ortholinear mechanical keyboard for lightning-fast Blender hotkeys",
+    "Vertical mouse vs trackball mouse for preventing de Quervain tenosynovitis in digital sculptors",
+    "Stylus thickness modification and pen grip adapters for artists managing nerve compression"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Biomechanical Strain Analysis for 3D Workflows",
+      "Hardware Ergonomic Matrix & Compatibility Table",
+      "Posture Adjustment & Workspace Calibration Guide",
+      "Tailored Pros & Cons for Heavy Stylus Users",
+      "Artist Ergonomic FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["Art is a passion", "Sitting all day is bad", "To sum up"]
+    }
+  }
+}

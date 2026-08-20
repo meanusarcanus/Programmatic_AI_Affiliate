@@ -1,0 +1,71 @@
+{
+  "id": "senior_pet_health",
+  "name": "Smart Health & DNA-Based Supplement Customization for Pet Seniors",
+  "tagline": "Precision Longevity & Cognitive Dysfunction Tracking for Aging Dogs & Cats",
+  "core_angle": "Combining genetic screening, smart metric monitoring, and target supplement stacks to manage Canine Cognitive Dysfunction (CCD) and arthritis.",
+  "target_audience": "Devoted pet owners with senior dogs/cats (8+ years old) seeking science-backed home care protocols and biometric wearables.",
+  "seed_keywords": [
+    "embark vet dna age test senior dog health screening",
+    "canine cognitive dysfunction tracking smart collar biometric",
+    "custom joint supplements for senior dogs based on weight age",
+    "gps activity monitor for senior dog arthritis stiffness tracking",
+    "best omega 3 triglyceride oil dosage senior cat kidney health",
+    "home mobility ramp and non slip floor setups senior dogs"
+  ],
+  "affiliates": [
+    {
+      "name": "Embark Vet",
+      "program": "Impact / ShareASale",
+      "tracking_tag": "aff=seniorpet-20",
+      "base_url": "https://embarkvet.com?aff=",
+      "anchors": [
+        "Embark Vet Breed + Health DNA Screening Kit for Seniors",
+        "Embark Dog Age Test Telomere Genetic Aging Assay"
+      ]
+    },
+    {
+      "name": "Fi Smart Collar / Whistle",
+      "program": "Impact",
+      "tracking_tag": "aff=seniorpet-20",
+      "base_url": "https://tryfi.com?aff=",
+      "anchors": [
+        "Fi Series 3 Smart GPS Collar with Sleep & Gait Analytics",
+        "Whistle Health 2.0 Biometric Activity Monitor for Senior Dogs"
+      ]
+    },
+    {
+      "name": "Nutramax / Native Pet / Honest Paws",
+      "program": "Amazon Associates / CJ Affiliate",
+      "tracking_tag": "tag=seniorpet-20",
+      "base_url": "https://www.amazon.com/dp/B00028ZBEG?tag=",
+      "anchors": [
+        "Dasuquin Advanced Joint Health Chews for Large Senior Dogs",
+        "Native Pet Organic Omega 3 Fish Oil for Senior Dog Cognitive Support",
+        "Honest Paws Mobility Relief Powder with Glucosamine & Boswellia"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "Using smart collar activity data to detect early canine cognitive dysfunction (sundowning symptoms)",
+    "Embark DNA health test results: How genetic markers alter senior dog joint supplement dosages",
+    "Liposomal turmeric vs UC-II collagen for senior dog hip dysplasia mobility improvement",
+    "Nighttime disorientation in senior cats: Smart lighting and sensory enrichment setups"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Veterinary Biometric & Genetic Marker Breakdown",
+      "Supplement Dosage & Smart Device Feature Comparison Table",
+      "Home Environmental Adaptation Checklist",
+      "Pros & Cons of Pharmaceutical vs Nutraceutical Intervention",
+      "Senior Pet Care FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["Pets are family", "Love your furry friend", "All in all"]
+    }
+  }
+}

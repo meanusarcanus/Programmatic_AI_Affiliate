@@ -1,0 +1,72 @@
+{
+  "id": "micro_aquascaping_gear",
+  "name": "Specialized Ergonomic Setup for Micro-Aquascaping & Planted Tank Hobbyists",
+  "tagline": "Precision Precision Lighting & Ergonomic Stainless Tools for Nano & Micro Aquascapes",
+  "core_angle": "Ergonomic, rust-proof, long-reach aquascaping tools and high-PAR micro LED fixtures that allow precise plant trimming without back or wrist fatigue.",
+  "target_audience": "Micro-aquascapers, nano tank hobbyists, Iwagumi style aquarists, rimless glass aquarium enthusiasts.",
+  "seed_keywords": [
+    "long reach stainless steel aquascaping pinsettes curved scissors",
+    "waterproof adjustable LED clip light nano planted tank",
+    "ergonomic trimming tools for 5 gallon rimless tank",
+    "auto dosing pump setup micro aquascape fertilizer",
+    "PAR spectrum test clip on LED lights for carpeting plants",
+    "preventing wrist strain during nano tank detail trimming"
+  ],
+  "affiliates": [
+    {
+      "name": "Buce Plant / Specialty Aquarium Outlets",
+      "program": "Refersion / ShareASale",
+      "tracking_tag": "affid=microaqua-20",
+      "base_url": "https://buceplant.com?aff=",
+      "anchors": [
+        "Buce Plant Stainless Steel Wave Scissors & Pinsette Set",
+        "UNS Titan Premium Aquascaping Tool Set with Canvas Roll",
+        "Chihiros C2 RGB App-Controlled Nano LED Light"
+      ]
+    },
+    {
+      "name": "Chihiros / Twinstar / ONF Light Store",
+      "program": "Amazon Associates / Direct",
+      "tracking_tag": "tag=microaqua-20",
+      "base_url": "https://www.amazon.com/dp/B08CSX3M5Q?tag=",
+      "anchors": [
+        "ONF Flat Nano Dimmable Planted Aquarium LED Light",
+        "Chihiros Doctor Mate Algae Inhibitor for Nano Tanks",
+        "Kamoer X1 PRO T2 Micro Liquid Automatic Dosing Pump"
+      ]
+    },
+    {
+      "name": "ADA / UNS Authorized Resellers",
+      "program": "Amazon Associates / CJ Affiliate",
+      "tracking_tag": "tag=microaqua-20",
+      "base_url": "https://www.amazon.com/dp/B01N7T5O5W?tag=",
+      "anchors": [
+        "ADA Pro-Scissors Short Curve Spring Trimmers",
+        "UNS Delta 60 Canvas Tool Organizer Holder"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "Wave scissors vs straight scissors: Preventing thumb cramp during dense Monte Carlo carpet trims",
+    "High PAR clip-on nano LED lights: Comparing Chihiros C2 RGB vs ONF Flat Nano for carpet growth",
+    "How to set up automated micro-dosing pumps for 3-gallon nano tanks to prevent algae outbreaks",
+    "Substrate flattening spatula vs pinsettes for precise Fissidens moss placement on driftwood"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Photometric Spectrum &PAR Intensity Metrics",
+      "Aquascaping Tool Steel Grade & Ergonomic Matrix",
+      "Nano-Tank Maintenance & Trimming Workflow Guide",
+      "Pros & Cons of Manual vs Automated Dosing Solutions",
+      "Micro-Aquascaping Technical FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["Aquariums are beautiful", "Fish keeping is fun", "To wrap things up"]
+    }
+  }
+}

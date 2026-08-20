@@ -1,0 +1,71 @@
+{
+  "id": "solo_microbiz_security",
+  "name": "Zero-Trust Cyber Security & Device Management for Solo Remote Micro-Businesses",
+  "tagline": "IT-Department-in-a-Box for Freelancers, Solo Bookkeepers, and Independent Contractors",
+  "core_angle": "Turnkey, zero-jargon cybersecurity protocols and hardware/software management suites tailored for non-technical 1-person businesses.",
+  "target_audience": "Solo accountants, remote consultants, freelance agencies, independent tradespeople handling customer payment data.",
+  "seed_keywords": [
+    "zero trust security setup for solo bookkeepers",
+    "password manager for 1 person small business",
+    "freelancer laptop encryption and endpoint protection",
+    "simple ransomware protection for non technical small business",
+    "micro business client data privacy compliance checklist",
+    "hardware security key setup for solo remote freelancers"
+  ],
+  "affiliates": [
+    {
+      "name": "NordVPN / NordPass Teams",
+      "program": "CJ Affiliate / Direct",
+      "tracking_tag": "affid=solosec-20",
+      "base_url": "https://nordpass.com/business?aff=",
+      "anchors": [
+        "NordPass Business Password Vault for Solo Operators",
+        "NordVPN Dedicated IP for Remote Client Server Access",
+        "NordLayer Micro-Enterprise Zero Trust Network Gateway"
+      ]
+    },
+    {
+      "name": "Dashlane Business",
+      "program": "Impact",
+      "tracking_tag": "affid=solosec-20",
+      "base_url": "https://www.dashlane.com?aff=",
+      "anchors": [
+        "Dashlane Team Password & Secure Credential Manager",
+        "Dashlane Dark Web Monitoring for Freelance Business Emails"
+      ]
+    },
+    {
+      "name": "Malwarebytes Endpoint Security",
+      "program": "FlexOffers / Direct",
+      "tracking_tag": "affid=solosec-20",
+      "base_url": "https://www.malwarebytes.com/business?aff=",
+      "anchors": [
+        "Malwarebytes Business Endpoint Protection for Laptops",
+        "YubiKey 5 Series Zero-Trust Hardware 2FA Key"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "How a solo bookkeeping business can achieve FTC Safeguards Rule compliance on a $50 monthly budget",
+    "The 5-step zero trust security stack for freelance copywriters working in coffee shops",
+    "Hardware security keys vs SMS 2FA for independent contractor banking access",
+    "Automated cloud backup and encrypted hard drive setup for solo tax professionals"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "No-Jargon Threat Assessment",
+      "Turnkey IT-in-a-Box Tool Comparison Table",
+      "Step-by-Step Security Implementation Walkthrough",
+      "Pros & Cons of SaaS vs Hardware Security Controls",
+      "Frequently Asked Compliance Questions"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["In the digital age", "Cybersecurity is crucial", "Without further ado"]
+    }
+  }
+}

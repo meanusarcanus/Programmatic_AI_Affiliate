@@ -1,0 +1,73 @@
+{
+  "id": "urban_renter_power",
+  "name": "Smart Grid & Home Battery Backup for Urban Renters",
+  "tagline": "Lease-Friendly Zero-Wiring Portable Power Solutions for Apartment Living",
+  "core_angle": "Zero-permanent wiring, non-invasive, lease-compliant portable power stations and balcony solar setups for apartment renters and condo owners.",
+  "target_audience": "Urban apartment renters, condo dwellers, remote workers in older buildings prone to grid outages.",
+  "seed_keywords": [
+    "apartment balcony solar generator setup",
+    "lease friendly portable battery backup",
+    "emergency CPAP blackout power for rented condo",
+    "zero drilling portable power station apartment",
+    "portable battery backup for apartment refrigerator",
+    "best power station for urban blackout emergency"
+  ],
+  "affiliates": [
+    {
+      "name": "EcoFlow",
+      "program": "Direct Affiliate / Amazon Associates",
+      "tracking_tag": "tag=urbanpower-20",
+      "base_url": "https://www.ecoflow.com/us?aff=",
+      "anchors": [
+        "EcoFlow Delta 2 Max Portable Power Station",
+        "EcoFlow PowerStream Balcony Solar System",
+        "EcoFlow River 2 Pro for CPAP Emergency Power"
+      ]
+    },
+    {
+      "name": "Jackery",
+      "program": "ShareASale / Amazon Associates",
+      "tracking_tag": "tag=urbanpower-20",
+      "base_url": "https://www.jackery.com?aff=",
+      "anchors": [
+        "Jackery Explorer 1000 v2 Portable Generator",
+        "Jackery Solar Generator 2000 Plus",
+        "Jackery Compact Battery Backup for Apartment Storage"
+      ]
+    },
+    {
+      "name": "Anker SOLIX",
+      "program": "Impact / Amazon Associates",
+      "tracking_tag": "tag=urbanpower-20",
+      "base_url": "https://www.anker.com/solix?aff=",
+      "anchors": [
+        "Anker SOLIX C1000 Portable Power Station",
+        "Anker SOLIX Flexible Balcony Solar Kit",
+        "Anker SOLIX F2000 LiFePO4 Apartment Power Backup"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "Best portable power station for apartment balcony solar charging in winter",
+    "How to power a medical CPAP machine during an apartment blackout without landlord approval",
+    "Quiet LiFePO4 battery backups for indoor apartment office desk setups",
+    "Renter-safe solar panel mounting for apartment balconies without wall drilling"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Lease Compliance & Installation Safety Guide",
+      "Battery Specifications & Runtime Calculations Table",
+      "Tailored Pros & Cons for Apartment Renters",
+      "Real-World Urban Emergency FAQ",
+      "Contextual Affiliate Buyer Recommendations"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["In today's fast-paced world", "In conclusion", "As we all know"]
+    }
+  }
+}

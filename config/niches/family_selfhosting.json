@@ -1,0 +1,71 @@
+{
+  "id": "family_selfhosting",
+  "name": "Privacy-First Self-Hosting Software for Non-Technical Families",
+  "tagline": "Ditch Cloud Subscriptions & Own Your Family Data with Plug-and-Play Mini-PC Home Servers",
+  "core_angle": "Turnkey, ultra-quiet home server hardware and automated software stacks for private family photo storage, media streaming, and local data backups.",
+  "target_audience": "Privacy-conscious parents, family archivers, and non-technical home network managers wanting to escape monthly Google Photos and iCloud fees.",
+  "seed_keywords": [
+    "quiet mini pc for immich family photo backup server",
+    "replace icloud google photos with private home server",
+    "synology vs mini pc for non technical home media server",
+    "tailscale private remote access setup family server",
+    "unraid setup guide for private family photo storage",
+    "best low power mini pc for 24 7 home server 2026"
+  ],
+  "affiliates": [
+    {
+      "name": "Beelink / Minisforum / Amazon",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=familyself-20",
+      "base_url": "https://www.amazon.com/dp/B0C3MBK189?tag=",
+      "anchors": [
+        "Beelink EQ12 Intel N100 Fanless Low-Power Mini PC",
+        "Minisforum NAB6 Intel i7 Home Server Mini Workstation",
+        "Synology DiskStation DS224+ 2-Bay NAS Enclosure"
+      ]
+    },
+    {
+      "name": "Western Digital / Seagate",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=familyself-20",
+      "base_url": "https://www.amazon.com/dp/B00WD30X7Q?tag=",
+      "anchors": [
+        "Western Digital Red Plus 8TB NAS Hard Drive",
+        "Crucial P3 Plus 2TB NVMe M.2 Internal SSD for Server Cache"
+      ]
+    },
+    {
+      "name": "ProtonVPN / Tailscale / Mullvad",
+      "program": "Impact / Direct",
+      "tracking_tag": "affid=familyself-20",
+      "base_url": "https://protonvpn.com?aff=",
+      "anchors": [
+        "ProtonVPN Dedicated IP for Secure Home Mesh VPN",
+        "Mullvad VPN Privacy Router Configuration"
+      ]
+    }
+  ],
+  "seed_topics": [
+    "Immich vs Synology Photos: The ultimate 2026 self-hosted family photo replacement guide",
+    "Building a silent $200 Intel N100 mini-PC home server that consumes less than 10W of power",
+    "How to set up Tailscale so non-technical family members can access home backup seamlessly on iPhone",
+    "3-2-1 backup strategy for home servers: Offsite encrypted B2 backups with zero maintenance"
+  ],
+  "formatting_constraints": {
+    "target_word_count_min": 1000,
+    "target_word_count_max": 1500,
+    "required_sections": [
+      "Hardware Power & Thermal Architecture Analysis",
+      "Mini-PC vs NAS Enclosure Benchmarking Table",
+      "One-Click Docker / CasaOS Setup Walkthrough",
+      "Pros & Cons of Local Self-Hosting vs Cloud SaaS",
+      "Family Privacy & Maintenance FAQ"
+    ],
+    "anti_spam_guardrails": {
+      "must_include_specs_table": true,
+      "must_include_unique_faq": true,
+      "must_include_pros_cons": true,
+      "prohibited_generic_phrases": ["In this article", "Data is king", "To wrap up"]
+    }
+  }
+}
