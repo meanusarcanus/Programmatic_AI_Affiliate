@@ -109,10 +109,10 @@
 <body>
   <header>
     <div class="nav-container">
-      <a href="{{ .Site.BaseURL }}" class="logo">{{ .Site.Title }}</a>
+      <a href="{{ "" | relURL }}" class="logo">{{ .Site.Title }}</a>
       <nav class="nav-links">
-        <a href="{{ .Site.BaseURL }}">Home</a>
-        <a href="{{ .Site.BaseURL }}posts/">All Guides</a>
+        <a href="{{ "" | relURL }}">Home</a>
+        <a href="{{ "posts/" | relURL }}">All Guides</a>
       </nav>
     </div>
   </header>
