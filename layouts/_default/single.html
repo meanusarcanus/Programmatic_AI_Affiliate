@@ -34,13 +34,29 @@
   <script>
     (function() {
       try {
-        const cat = "{{ with .Params.categories }}{{ index . 0 }}{{ else }}general{{ end }}".toLowerCase().replace(/[^a-z0-9]/g, "_");
-        
+        function getNicheKey(catStr) {
+          catStr = (catStr || "").toLowerCase();
+          if (catStr.includes("renter") || catStr.includes("power") || catStr.includes("battery")) return "urban_renter_power";
+          if (catStr.includes("crypto") || catStr.includes("storage") || catStr.includes("cold")) return "crypto_cold_storage";
+          if (catStr.includes("microbiz") || catStr.includes("security") || catStr.includes("trust")) return "solo_microbiz_security";
+          if (catStr.includes("animator") || catStr.includes("ergo") || catStr.includes("vertical")) return "animator_ergonomics";
+          if (catStr.includes("voice") || catStr.includes("closet") || catStr.includes("studio")) return "closet_voice_studio";
+          if (catStr.includes("pet") || catStr.includes("canine") || catStr.includes("collar")) return "senior_pet_health";
+          if (catStr.includes("selfhost") || catStr.includes("family") || catStr.includes("photo")) return "family_selfhosting";
+          if (catStr.includes("trade") || catStr.includes("lead") || catStr.includes("plumber")) return "trades_leadgen";
+          if (catStr.includes("aqua") || catStr.includes("tank") || catStr.includes("scissors")) return "micro_aquascaping_gear";
+          if (catStr.includes("cosmetic") || catStr.includes("pack") || catStr.includes("bottle")) return "indie_cosmetic_packaging";
+          return "urban_renter_power";
+        }
+
+        const rawCat = "{{ with .Params.categories }}{{ index . 0 }}{{ else }}general{{ end }}";
+        const catKey = getNicheKey(rawCat);
+
         // 1. Pageview Hit Increment
         let store = JSON.parse(localStorage.getItem("techspec_niche_hits") || "{}");
-        store[cat] = (store[cat] || 0) + 1;
+        store[catKey] = (store[catKey] || 0) + 1;
         localStorage.setItem("techspec_niche_hits", JSON.stringify(store));
-        
+
         let totalH = parseInt(localStorage.getItem("techspec_total_hits") || "0", 10) + 1;
         localStorage.setItem("techspec_total_hits", totalH.toString());
 
@@ -51,7 +67,7 @@
             localStorage.setItem("techspec_product_clicks", productClicks.toString());
             
             let clickStore = JSON.parse(localStorage.getItem("techspec_niche_clicks") || "{}");
-            clickStore[cat] = (clickStore[cat] || 0) + 1;
+            clickStore[catKey] = (clickStore[catKey] || 0) + 1;
             localStorage.setItem("techspec_niche_clicks", JSON.stringify(clickStore));
           });
         });
