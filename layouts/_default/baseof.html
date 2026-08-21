@@ -111,12 +111,29 @@
   <header>
     <div class="nav-container">
       <a href="{{ "" | relURL }}" class="logo">{{ .Site.Title }}</a>
-      <nav class="nav-links">
-        <a href="{{ "" | relURL }}">Home</a>
-        <a href="{{ "posts/" | relURL }}">All Guides</a>
-      </nav>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <input type="text" id="globalNavSearch" placeholder="Search products (e.g. YubiKey, EcoFlow)..." style="padding: 0.4rem 0.8rem; font-size: 0.85rem; border-radius: 6px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; width: 220px;">
+        <nav class="nav-links">
+          <a href="{{ "" | relURL }}">Home</a>
+          <a href="{{ "posts/" | relURL }}">All Guides</a>
+        </nav>
+      </div>
     </div>
   </header>
+  <script>
+    document.getElementById('globalNavSearch')?.addEventListener('input', function(e) {
+      const query = e.target.value.toLowerCase().trim();
+      const cards = document.querySelectorAll('article');
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        if (text.includes(query)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  </script>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
