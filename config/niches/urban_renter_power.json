@@ -15,11 +15,11 @@
   "affiliates": [
     {
       "name": "EcoFlow",
-      "program": "Direct Affiliate / Amazon Associates",
-      "tracking_tag": "tag=urbanpower-20",
-      "base_url": "https://www.ecoflow.com/us?aff=",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/EF-ECOFLOW-Power-Station-RIVER/dp/B0DP4SDJ8T?",
       "anchors": [
-        "EcoFlow Delta 2 Max Portable Power Station",
+        "EcoFlow River / Delta 2 Max Portable Power Station",
         "EcoFlow PowerStream Balcony Solar System",
         "EcoFlow River 2 Pro for CPAP Emergency Power"
       ]
