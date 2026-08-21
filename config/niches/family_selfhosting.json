@@ -16,8 +16,8 @@
     {
       "name": "Beelink / Minisforum / Amazon",
       "program": "Amazon Associates",
-      "tracking_tag": "tag=familyself-20",
-      "base_url": "https://www.amazon.com/dp/B0C3MBK189?tag=",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/dp/B0C3MBK189?",
       "anchors": [
         "Beelink EQ12 Intel N100 Fanless Low-Power Mini PC",
         "Minisforum NAB6 Intel i7 Home Server Mini Workstation",
@@ -27,8 +27,8 @@
     {
       "name": "Western Digital / Seagate",
       "program": "Amazon Associates",
-      "tracking_tag": "tag=familyself-20",
-      "base_url": "https://www.amazon.com/dp/B00WD30X7Q?tag=",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/dp/B00WD30X7Q?",
       "anchors": [
         "Western Digital Red Plus 8TB NAS Hard Drive",
         "Crucial P3 Plus 2TB NVMe M.2 Internal SSD for Server Cache"
@@ -37,7 +37,7 @@
     {
       "name": "ProtonVPN / Tailscale / Mullvad",
       "program": "Impact / Direct",
-      "tracking_tag": "affid=familyself-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://protonvpn.com?aff=",
       "anchors": [
         "ProtonVPN Dedicated IP for Secure Home Mesh VPN",
@@ -65,7 +65,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["In this article", "Data is king", "To wrap up"]
+      "prohibited_generic_phrases": [
+        "In this article",
+        "Data is king",
+        "To wrap up"
+      ]
     }
   }
 }

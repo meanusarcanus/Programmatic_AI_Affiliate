@@ -16,7 +16,7 @@
     {
       "name": "EcoEnclose",
       "program": "ShareASale / Direct",
-      "tracking_tag": "affid=indiepack-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.ecoenclose.com?aff=",
       "anchors": [
         "EcoEnclose 100% Recycled Padded Shipping Mailers",
@@ -27,7 +27,7 @@
     {
       "name": "Sustainable Packaging Wholesale",
       "program": "Direct Affiliate Program",
-      "tracking_tag": "affid=indiepack-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.sustainablepackaging.com?aff=",
       "anchors": [
         "PCR Ocean Plastic Airless Pump Serum Containers",
@@ -38,7 +38,7 @@
     {
       "name": "Shopify Sustainability Apps",
       "program": "Shopify Partner Referral",
-      "tracking_tag": "ref=indiepack-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://apps.shopify.com/eco-returns?ref=",
       "anchors": [
         "EcoCart Carbon Neutral Checkout Integration for Shopify",
@@ -66,7 +66,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Saving the planet", "Going green is vital", "In summary"]
+      "prohibited_generic_phrases": [
+        "Saving the planet",
+        "Going green is vital",
+        "In summary"
+      ]
     }
   }
 }

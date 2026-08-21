@@ -16,7 +16,7 @@
     {
       "name": "NordVPN / NordPass Teams",
       "program": "CJ Affiliate / Direct",
-      "tracking_tag": "affid=solosec-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://nordpass.com/business?aff=",
       "anchors": [
         "NordPass Business Password Vault for Solo Operators",
@@ -27,7 +27,7 @@
     {
       "name": "Dashlane Business",
       "program": "Impact",
-      "tracking_tag": "affid=solosec-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.dashlane.com?aff=",
       "anchors": [
         "Dashlane Team Password & Secure Credential Manager",
@@ -37,7 +37,7 @@
     {
       "name": "Malwarebytes Endpoint Security",
       "program": "FlexOffers / Direct",
-      "tracking_tag": "affid=solosec-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.malwarebytes.com/business?aff=",
       "anchors": [
         "Malwarebytes Business Endpoint Protection for Laptops",
@@ -65,7 +65,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["In the digital age", "Cybersecurity is crucial", "Without further ado"]
+      "prohibited_generic_phrases": [
+        "In the digital age",
+        "Cybersecurity is crucial",
+        "Without further ado"
+      ]
     }
   }
 }

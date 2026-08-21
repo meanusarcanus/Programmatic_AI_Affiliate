@@ -16,7 +16,7 @@
     {
       "name": "Ledger Official",
       "program": "Impact / Direct",
-      "tracking_tag": "affid=cryptocold-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://shop.ledger.com?referral=",
       "anchors": [
         "Ledger Flex Touchscreen Secure Element Hardware Wallet",
@@ -27,7 +27,7 @@
     {
       "name": "Trezor Official",
       "program": "ShareASale / Direct",
-      "tracking_tag": "affid=cryptocold-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://trezor.io?aff=",
       "anchors": [
         "Trezor Safe 5 Secure Element Hardware Wallet",
@@ -37,7 +37,7 @@
     {
       "name": "Cryptosteel / Keystone / OneKey",
       "program": "Direct Affiliate Program",
-      "tracking_tag": "affid=cryptocold-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://cryptosteel.com?aff=",
       "anchors": [
         "Cryptosteel Capsule Solo Stainless Steel Master Backup",
@@ -47,7 +47,7 @@
     }
   ],
   "seed_topics": [
-    "Fireproof and melt-point testing: Cryptosteel Capsule vs Billfodl titanium plates at 2,000°F",
+    "Fireproof and melt-point testing: Cryptosteel Capsule vs Billfodl titanium plates at 2,000\u00b0F",
     "The 3-layer crypto estate inheritance protocol: How non-technical heirs can access funds without risk of theft",
     "Bluetooth vs USB-C vs Air-Gapped QR code hardware wallets: Risk analysis for senior investors",
     "Multi-sig 2-of-3 wallet setups made simple using Sparrow Wallet and metal backups"
@@ -66,7 +66,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Crypto is the future", "To the moon", "In summary"]
+      "prohibited_generic_phrases": [
+        "Crypto is the future",
+        "To the moon",
+        "In summary"
+      ]
     }
   }
 }

@@ -16,7 +16,7 @@
     {
       "name": "GoHighLevel (GHL)",
       "program": "FirstPromoter Direct",
-      "tracking_tag": "fp_ref=tradeauto-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.gohighlevel.com?fp_ref=",
       "anchors": [
         "GoHighLevel Starter Account for Solo Contractor Automation",
@@ -26,7 +26,7 @@
     {
       "name": "Make.com / Zapier",
       "program": "PartnerStack / Impact",
-      "tracking_tag": "ps_ref=tradeauto-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.make.com?ref=",
       "anchors": [
         "Make.com Automated SMS Lead Capture Workflow Blueprint",
@@ -36,7 +36,7 @@
     {
       "name": "Jobber / Housecall Pro",
       "program": "ShareASale / Direct",
-      "tracking_tag": "affid=tradeauto-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://getjobber.com?aff=",
       "anchors": [
         "Jobber Mobile CRM for Independent Tradespeople",
@@ -64,7 +64,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Time is money", "Work smarter not harder", "In the end"]
+      "prohibited_generic_phrases": [
+        "Time is money",
+        "Work smarter not harder",
+        "In the end"
+      ]
     }
   }
 }

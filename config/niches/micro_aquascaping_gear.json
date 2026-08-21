@@ -16,7 +16,7 @@
     {
       "name": "Buce Plant / Specialty Aquarium Outlets",
       "program": "Refersion / ShareASale",
-      "tracking_tag": "affid=microaqua-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://buceplant.com?aff=",
       "anchors": [
         "Buce Plant Stainless Steel Wave Scissors & Pinsette Set",
@@ -27,8 +27,8 @@
     {
       "name": "Chihiros / Twinstar / ONF Light Store",
       "program": "Amazon Associates / Direct",
-      "tracking_tag": "tag=microaqua-20",
-      "base_url": "https://www.amazon.com/dp/B08CSX3M5Q?tag=",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/dp/B08CSX3M5Q?",
       "anchors": [
         "ONF Flat Nano Dimmable Planted Aquarium LED Light",
         "Chihiros Doctor Mate Algae Inhibitor for Nano Tanks",
@@ -38,8 +38,8 @@
     {
       "name": "ADA / UNS Authorized Resellers",
       "program": "Amazon Associates / CJ Affiliate",
-      "tracking_tag": "tag=microaqua-20",
-      "base_url": "https://www.amazon.com/dp/B01N7T5O5W?tag=",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/dp/B01N7T5O5W?",
       "anchors": [
         "ADA Pro-Scissors Short Curve Spring Trimmers",
         "UNS Delta 60 Canvas Tool Organizer Holder"
@@ -66,7 +66,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Aquariums are beautiful", "Fish keeping is fun", "To wrap things up"]
+      "prohibited_generic_phrases": [
+        "Aquariums are beautiful",
+        "Fish keeping is fun",
+        "To wrap things up"
+      ]
     }
   }
 }

@@ -16,7 +16,7 @@
     {
       "name": "Embark Vet",
       "program": "Impact / ShareASale",
-      "tracking_tag": "aff=seniorpet-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://embarkvet.com?aff=",
       "anchors": [
         "Embark Vet Breed + Health DNA Screening Kit for Seniors",
@@ -26,7 +26,7 @@
     {
       "name": "Fi Smart Collar / Whistle",
       "program": "Impact",
-      "tracking_tag": "aff=seniorpet-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://tryfi.com?aff=",
       "anchors": [
         "Fi Series 3 Smart GPS Collar with Sleep & Gait Analytics",
@@ -36,8 +36,8 @@
     {
       "name": "Nutramax / Native Pet / Honest Paws",
       "program": "Amazon Associates / CJ Affiliate",
-      "tracking_tag": "tag=seniorpet-20",
-      "base_url": "https://www.amazon.com/dp/B00028ZBEG?tag=",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/dp/B00028ZBEG?",
       "anchors": [
         "Dasuquin Advanced Joint Health Chews for Large Senior Dogs",
         "Native Pet Organic Omega 3 Fish Oil for Senior Dog Cognitive Support",
@@ -65,7 +65,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Pets are family", "Love your furry friend", "All in all"]
+      "prohibited_generic_phrases": [
+        "Pets are family",
+        "Love your furry friend",
+        "All in all"
+      ]
     }
   }
 }

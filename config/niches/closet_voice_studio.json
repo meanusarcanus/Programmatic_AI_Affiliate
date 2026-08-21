@@ -16,7 +16,7 @@
     {
       "name": "Sweetwater",
       "program": "Impact / Direct",
-      "tracking_tag": "sweetwater_id=closetvoice-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.sweetwater.com/store/detail/?aff=",
       "anchors": [
         "Rode NT1 5th Generation XLR/USB Studio Condenser Mic",
@@ -27,7 +27,7 @@
     {
       "name": "B&H Photo Video",
       "program": "Impact / Direct",
-      "tracking_tag": "bh_id=closetvoice-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.bhphotovideo.com/c/product/?aff=",
       "anchors": [
         "Rode PSA1+ Professional Studio Boom Arm",
@@ -38,8 +38,8 @@
     {
       "name": "Amazon Audio Accessories",
       "program": "Amazon Associates",
-      "tracking_tag": "tag=closetvoice-20",
-      "base_url": "https://www.amazon.com/dp/B00N1YPXW2?tag=",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/dp/B00N1YPXW2?",
       "anchors": [
         "Elgato Wave Mic Arm LP Low Profile Desk Mount",
         "Audimute Heavyweight Soundproofing Moving Blankets"
@@ -66,7 +66,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Audio is everything", "Sound quality matters", "In summary"]
+      "prohibited_generic_phrases": [
+        "Audio is everything",
+        "Sound quality matters",
+        "In summary"
+      ]
     }
   }
 }

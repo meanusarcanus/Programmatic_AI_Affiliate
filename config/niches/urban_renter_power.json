@@ -27,7 +27,7 @@
     {
       "name": "Jackery",
       "program": "ShareASale / Amazon Associates",
-      "tracking_tag": "tag=urbanpower-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.jackery.com?aff=",
       "anchors": [
         "Jackery Explorer 1000 v2 Portable Generator",
@@ -38,7 +38,7 @@
     {
       "name": "Anker SOLIX",
       "program": "Impact / Amazon Associates",
-      "tracking_tag": "tag=urbanpower-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.anker.com/solix?aff=",
       "anchors": [
         "Anker SOLIX C1000 Portable Power Station",
@@ -67,7 +67,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["In today's fast-paced world", "In conclusion", "As we all know"]
+      "prohibited_generic_phrases": [
+        "In today's fast-paced world",
+        "In conclusion",
+        "As we all know"
+      ]
     }
   }
 }

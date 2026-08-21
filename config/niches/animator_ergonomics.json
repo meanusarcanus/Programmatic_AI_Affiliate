@@ -16,7 +16,7 @@
     {
       "name": "Logitech Ergonomics",
       "program": "Amazon Associates / Impact",
-      "tracking_tag": "tag=animatorergo-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.logitech.com/en-us/ergonomics?aff=",
       "anchors": [
         "Logitech MX Vertical Ergonomic Wireless Mouse",
@@ -27,7 +27,7 @@
     {
       "name": "Wacom / Ergotron",
       "program": "Amazon Associates / Sweetwater / B&H",
-      "tracking_tag": "tag=animatorergo-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.ergotron.com?aff=",
       "anchors": [
         "Ergotron LX Sit-Stand Monitor Arm for Wacom Cintiq 22",
@@ -38,7 +38,7 @@
     {
       "name": "Herman Miller Reseller",
       "program": "ShareASale / Direct",
-      "tracking_tag": "tag=animatorergo-20",
+      "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://store.hermanmiller.com?aff=",
       "anchors": [
         "Herman Miller Embody Chair for Forward-Lean Sculpting",
@@ -66,7 +66,11 @@
       "must_include_specs_table": true,
       "must_include_unique_faq": true,
       "must_include_pros_cons": true,
-      "prohibited_generic_phrases": ["Art is a passion", "Sitting all day is bad", "To sum up"]
+      "prohibited_generic_phrases": [
+        "Art is a passion",
+        "Sitting all day is bad",
+        "To sum up"
+      ]
     }
   }
 }
