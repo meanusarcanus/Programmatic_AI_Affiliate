@@ -1,6 +1,6 @@
 ---
 title: "Jobber vs GoHighLevel: Which platform is better for a solo electrician with zero technical skills?"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-07T04:00:00Z
 draft: false
 description: "In-depth guide on Jobber vs GoHighLevel: Which platform is better for a solo electrician with zero technical skills?. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "jobber-vs-gohighlevel-which-platform-is-better-for-a-solo-electrician-with-zero-technical-skills"

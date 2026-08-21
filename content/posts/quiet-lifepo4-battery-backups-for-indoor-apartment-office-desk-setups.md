@@ -1,6 +1,6 @@
 ---
 title: "Quiet LiFePO4 battery backups for indoor apartment office desk setups"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-04T22:00:00Z
 draft: false
 description: "In-depth guide on Quiet LiFePO4 battery backups for indoor apartment office desk setups. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "quiet-lifepo4-battery-backups-for-indoor-apartment-office-desk-setups"

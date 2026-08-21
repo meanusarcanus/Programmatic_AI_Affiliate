@@ -1,6 +1,6 @@
 ---
 title: "The 3-layer crypto estate inheritance protocol: How non-technical heirs can access funds without risk of theft"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-04T04:00:00Z
 draft: false
 description: "In-depth guide on The 3-layer crypto estate inheritance protocol: How non-technical heirs can access funds without risk of theft. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "the-3-layer-crypto-estate-inheritance-protocol-how-non-technical-heirs-can-access-funds-without-risk-of-theft"

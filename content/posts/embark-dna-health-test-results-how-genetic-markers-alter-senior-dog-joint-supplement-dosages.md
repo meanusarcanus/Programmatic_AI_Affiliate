@@ -1,6 +1,6 @@
 ---
 title: "Embark DNA health test results: How genetic markers alter senior dog joint supplement dosages"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-16T22:00:00Z
 draft: false
 description: "In-depth guide on Embark DNA health test results: How genetic markers alter senior dog joint supplement dosages. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "embark-dna-health-test-results-how-genetic-markers-alter-senior-dog-joint-supplement-dosages"

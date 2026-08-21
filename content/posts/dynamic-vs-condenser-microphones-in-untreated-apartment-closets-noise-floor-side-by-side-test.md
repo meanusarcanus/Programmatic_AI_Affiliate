@@ -1,6 +1,6 @@
 ---
 title: "Dynamic vs Condenser microphones in untreated apartment closets: Noise floor side-by-side test"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-17T16:00:00Z
 draft: false
 description: "In-depth guide on Dynamic vs Condenser microphones in untreated apartment closets: Noise floor side-by-side test. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "dynamic-vs-condenser-microphones-in-untreated-apartment-closets-noise-floor-side-by-side-test"

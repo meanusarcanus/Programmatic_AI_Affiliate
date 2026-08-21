@@ -1,6 +1,6 @@
 ---
 title: "The 5-step zero trust security stack for freelance copywriters working in coffee shops"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-03T10:00:00Z
 draft: false
 description: "In-depth guide on The 5-step zero trust security stack for freelance copywriters working in coffee shops. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "the-5-step-zero-trust-security-stack-for-freelance-copywriters-working-in-coffee-shops"

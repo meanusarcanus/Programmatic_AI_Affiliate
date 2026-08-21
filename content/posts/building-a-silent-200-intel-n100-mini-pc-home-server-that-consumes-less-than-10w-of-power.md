@@ -1,6 +1,6 @@
 ---
 title: "Building a silent $200 Intel N100 mini-PC home server that consumes less than 10W of power"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-19T04:00:00Z
 draft: false
 description: "In-depth guide on Building a silent $200 Intel N100 mini-PC home server that consumes less than 10W of power. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "building-a-silent-200-intel-n100-mini-pc-home-server-that-consumes-less-than-10w-of-power"

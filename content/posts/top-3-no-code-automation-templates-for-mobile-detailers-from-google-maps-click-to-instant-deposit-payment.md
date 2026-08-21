@@ -1,6 +1,6 @@
 ---
 title: "Top 3 no-code automation templates for mobile detailers: From Google Maps click to instant deposit payment"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-01T22:00:00Z
 draft: false
 description: "In-depth guide on Top 3 no-code automation templates for mobile detailers: From Google Maps click to instant deposit payment. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "top-3-no-code-automation-templates-for-mobile-detailers-from-google-maps-click-to-instant-deposit-payment"

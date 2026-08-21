@@ -1,6 +1,6 @@
 ---
 title: "High PAR clip-on nano LED lights: Comparing Chihiros C2 RGB vs ONF Flat Nano for carpet growth"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-14T16:00:00Z
 draft: false
 description: "In-depth guide on High PAR clip-on nano LED lights: Comparing Chihiros C2 RGB vs ONF Flat Nano for carpet growth. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "high-par-clip-on-nano-led-lights-comparing-chihiros-c2-rgb-vs-onf-flat-nano-for-carpet-growth"

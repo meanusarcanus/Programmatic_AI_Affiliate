@@ -1,6 +1,6 @@
 ---
 title: "Compostable paperboard tubes for lip balms and solid perfumes: Leakage test under heat"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-18T10:00:00Z
 draft: false
 description: "In-depth guide on Compostable paperboard tubes for lip balms and solid perfumes: Leakage test under heat. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "compostable-paperboard-tubes-for-lip-balms-and-solid-perfumes-leakage-test-under-heat"

@@ -1,6 +1,6 @@
 ---
 title: "How to program a split ortholinear mechanical keyboard for lightning-fast Blender hotkeys"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-10T22:00:00Z
 draft: false
 description: "In-depth guide on How to program a split ortholinear mechanical keyboard for lightning-fast Blender hotkeys. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "how-to-program-a-split-ortholinear-mechanical-keyboard-for-lightning-fast-blender-hotkeys"

@@ -1,6 +1,6 @@
 ---
 title: "How to set up automated micro-dosing pumps for 3-gallon nano tanks to prevent algae outbreaks"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-10T04:00:00Z
 draft: false
 description: "In-depth guide on How to set up automated micro-dosing pumps for 3-gallon nano tanks to prevent algae outbreaks. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "how-to-set-up-automated-micro-dosing-pumps-for-3-gallon-nano-tanks-to-prevent-algae-outbreaks"

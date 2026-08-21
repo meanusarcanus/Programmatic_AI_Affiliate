@@ -1,6 +1,6 @@
 ---
 title: "Liposomal turmeric vs UC-II collagen for senior dog hip dysplasia mobility improvement"
-date: 2026-08-21T12:19:51Z
+date: 2026-08-06T10:00:00Z
 draft: false
 description: "In-depth guide on Liposomal turmeric vs UC-II collagen for senior dog hip dysplasia mobility improvement. Learn key specifications, pros and cons, expert setup steps, and top contextual recommendations."
 slug: "liposomal-turmeric-vs-uc-ii-collagen-for-senior-dog-hip-dysplasia-mobility-improvement"
