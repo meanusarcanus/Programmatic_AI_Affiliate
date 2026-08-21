@@ -81,11 +81,18 @@ Write the complete article now:
         core_angle = niche_config.get("core_angle", "")
 
         # Format affiliate links
+        from urllib.parse import quote_plus
         aff_links_md = []
         for aff in affiliates:
             name = aff.get("name", "Product")
-            url = aff.get("base_url", "https://example.com?aff=") + aff.get("tracking_tag", "tag=aff-20")
             anchor = aff.get("anchors", [name])[0]
+            base_u = aff.get("base_url", "https://www.amazon.com/s?k=")
+            tag = aff.get("tracking_tag", "tag=techspecdiges-20")
+            if "amazon.com" in base_u:
+                kw = quote_plus(anchor)
+                url = f"https://www.amazon.com/s?k={kw}&{tag}"
+            else:
+                url = f"{base_u}{tag}"
             aff_links_md.append(f"[{anchor}]({url})")
 
         link_1 = aff_links_md[0] if len(aff_links_md) > 0 else "[Recommended Solution](https://example.com)"
