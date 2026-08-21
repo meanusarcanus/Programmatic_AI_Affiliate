@@ -36,13 +36,25 @@
       try {
         const cat = "{{ with .Params.categories }}{{ index . 0 }}{{ else }}general{{ end }}".toLowerCase().replace(/[^a-z0-9]/g, "_");
         
-        // 1. Local Storage Hit Increment
+        // 1. Pageview Hit Increment
         let store = JSON.parse(localStorage.getItem("techspec_niche_hits") || "{}");
         store[cat] = (store[cat] || 0) + 1;
         localStorage.setItem("techspec_niche_hits", JSON.stringify(store));
         
-        let totalH = parseInt(localStorage.getItem("techspec_total_hits") || "1842", 10) + 1;
+        let totalH = parseInt(localStorage.getItem("techspec_total_hits") || "0", 10) + 1;
         localStorage.setItem("techspec_total_hits", totalH.toString());
+
+        // 2. Track Outbound Amazon Affiliate Link Clicks
+        document.querySelectorAll('a[href*="amazon.com"]').forEach(link => {
+          link.addEventListener('click', function() {
+            let productClicks = parseInt(localStorage.getItem("techspec_product_clicks") || "0", 10) + 1;
+            localStorage.setItem("techspec_product_clicks", productClicks.toString());
+            
+            let clickStore = JSON.parse(localStorage.getItem("techspec_niche_clicks") || "{}");
+            clickStore[cat] = (clickStore[cat] || 0) + 1;
+            localStorage.setItem("techspec_niche_clicks", JSON.stringify(clickStore));
+          });
+        });
       } catch(e) {}
     })();
   </script>
