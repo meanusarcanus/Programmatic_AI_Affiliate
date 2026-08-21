@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "Neumann U87 Ai Studio Condenser Microphone (,695)",
+        "Universal Audio Apollo Twin X Duo Heritage Edition Audio Interface (,199)",
+        "Sennheiser MKH416 Shotgun Vocal Microphone (99)"
+      ]
+    },
+    {
       "name": "Sweetwater",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

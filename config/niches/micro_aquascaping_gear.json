@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "ADA Solar RGB High-PAR Pendant LED Lighting System (99)",
+        "UNS 90U Ultra-Clear Rimless Glass Aquarium Tank (,299)",
+        "Kamoer Pro 4-Channel WiFi Automated Precision Dosing Pump System (99)"
+      ]
+    },
+    {
       "name": "Buce Plant / Specialty Aquarium Outlets",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

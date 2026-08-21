@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "Digital Peristaltic Liquid Bottle Filling Machine (,299)",
+        "Laboratory High-Speed Vacuum Homogenizer Emulsifier Mixer (,499)",
+        "Ultrasonic Tube Sealing Machine for Skincare Tubes (,899)"
+      ]
+    },
+    {
       "name": "EcoEnclose",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "Ledger Stax Touchscreen Hardware Wallet 3-Pack Vault (,199)",
+        "Trezor Model T Titanium Multi-Sig Cold Storage Vault (99)",
+        "Cryptosteel Capsule Industrial 10-Pack Seed Backup (99)"
+      ]
+    },
+    {
       "name": "Ledger Official",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

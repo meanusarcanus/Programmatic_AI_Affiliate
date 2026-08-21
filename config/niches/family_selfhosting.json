@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "Synology DiskStation DS1821+ 8-Bay NAS Enterprise Server (,099)",
+        "Western Digital 24TB Red Pro Enterprise NAS Hard Drive 4-Pack (,299)",
+        "QNAP 10GbE All-Flash NAS Server (,499)"
+      ]
+    },
+    {
       "name": "Beelink / Minisforum / Amazon",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

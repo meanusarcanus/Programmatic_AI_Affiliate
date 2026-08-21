@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "EcoFlow Delta Pro 3.6kWh Portable Home Battery Generator (,500)",
+        "Anker SOLIX F3800 Portable Power Station 6000W (,999)",
+        "Jackery Solar Generator 2000 Plus Kit (,799)"
+      ]
+    },
+    {
       "name": "EcoFlow",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

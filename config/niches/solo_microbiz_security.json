@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "SanDisk Professional 4TB PRO-BLADE Modular SSD System (,299)",
+        "YubiKey 5 NFC Enterprise Security Key 10-Pack (50)",
+        "Synology Router WRX560 Mesh Security Gateway (99)"
+      ]
+    },
+    {
       "name": "NordVPN / NordPass Teams",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

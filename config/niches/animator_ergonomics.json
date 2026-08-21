@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "Wacom Cintiq Pro 27 4K Touch Display (,499)",
+        "Herman Miller Embody Ergonomic Office Chair (,795)",
+        "3Dconnexion SpaceMouse Enterprise Kit (99)"
+      ]
+    },
+    {
       "name": "Logitech Ergonomics",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",

@@ -14,6 +14,17 @@
   ],
   "affiliates": [
     {
+      "name": "High-Ticket Flagship Amazon Products",
+      "program": "Amazon Associates",
+      "tracking_tag": "tag=techspecdiges-20",
+      "base_url": "https://www.amazon.com/s?k=",
+      "anchors": [
+        "FLIR E8-XT Thermal Imaging Camera with Wi-Fi (,999)",
+        "DeWalt ToughSystem 2.0 Mobile Workshop Storage System (99)",
+        "Bosch Professional Rotary Laser Level System Kit (,299)"
+      ]
+    },
+    {
       "name": "GoHighLevel (GHL)",
       "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
