@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Executive Analytics & Network Monitor | TechSpec Digest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+      --gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 800;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--accent); }
+    main {
+      flex: 1;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      background: var(--card-bg);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="../" class="logo">TechSpec Digest</a>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <nav class="nav-links">
+          <a href="../">Home</a>
+          <a href="../posts/">All Guides</a>
+          <a href="./" style="color: #38bdf8; font-weight: 600;">📊 Dashboard</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div style="max-width: 1100px; margin: 0 auto; padding-bottom: 3rem;">
+      
+      <!-- Dashboard Top Header -->
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem;">
+        <div>
+          <span style="font-size: 0.8rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; letter-spacing: 0.1em;">Private Network Control Center</span>
+          <h1 style="font-size: 2.25rem; font-weight: 800; margin-top: 0.2rem; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+            Executive Analytics & Network Monitor
+          </h1>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="https://affiliate-program.amazon.com/" target="_blank" style="background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.3); color: #fbbf24; padding: 0.6rem 1rem; border-radius: 8px; font-weight: 600; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+            Amazon Portal &rarr;
+          </a>
+          <a href="https://search.google.com/search-console" target="_blank" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; padding: 0.6rem 1rem; border-radius: 8px; font-weight: 600; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+            Search Console &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Key Metrics Row -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 2rem;">
+        
+        <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;">
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Published Guides</div>
+          <div style="font-size: 2.25rem; font-weight: 800; color: var(--text); margin: 0.4rem 0;">30 <span style="font-size: 0.9rem; color: #4ade80; font-weight: 600;">+3/wk</span></div>
+          <div style="font-size: 0.78rem; color: var(--text-muted);">Across 10 Micro-Niches</div>
+        </div>
+
+        <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;">
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Amazon Store ID</div>
+          <div style="font-size: 1.35rem; font-weight: 800; color: #38bdf8; margin: 0.6rem 0;">techspecdiges-20</div>
+          <div style="font-size: 0.78rem; color: #4ade80; font-weight: 600;">● 100% Links Active (275/275)</div>
+        </div>
+
+        <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;">
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">GSC Indexation</div>
+          <div style="font-size: 1.35rem; font-weight: 800; color: #4ade80; margin: 0.6rem 0;">Verified & Active</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted);">sitemap.xml Submitted</div>
+        </div>
+
+        <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;">
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">High-Ticket Target</div>
+          <div style="font-size: 2.25rem; font-weight: 800; color: #fbbf24; margin: 0.4rem 0;">$500 – $3.9K</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted);">Product Range Configured</div>
+        </div>
+
+      </div>
+
+      <!-- Charts Section -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+        
+        <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;">
+          <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: var(--text);">
+            📈 Monthly Traffic Projection & Content Scale
+          </h3>
+          <canvas id="trafficChart" height="220"></canvas>
+        </div>
+
+        <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;">
+          <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: var(--text);">
+            📊 High-Ticket Niche Potential Matrix
+          </h3>
+          <canvas id="nicheChart" height="220"></canvas>
+        </div>
+
+      </div>
+
+      <!-- Content Portfolio & Live Health Table -->
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text);">
+            📂 Live Published Articles & Performance Tracking (30 Guides)
+          </h3>
+          <input type="text" id="dashSearch" placeholder="Filter articles by title..." style="padding: 0.5rem 0.9rem; font-size: 0.85rem; border-radius: 6px; border: 1px solid var(--border); background: var(--bg); color: var(--text); width: 260px; outline: none;">
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;" id="dashTable">
+            <thead>
+              <tr style="background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--border); text-align: left;">
+                <th style="padding: 0.85rem 1rem; color: var(--accent);">Article Title</th>
+                <th style="padding: 0.85rem 1rem; color: var(--accent);">Amazon Tag</th>
+                <th style="padding: 0.85rem 1rem; color: var(--accent); text-align: right;">Action</th>
+              </tr>
+            </thead>
+            <tbody id="dashTableBody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TechSpec Digest. All rights reserved.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.75rem;">Independent Technical Specifications & Equipment Research Laboratory</p>
+  </footer>
+
+  <script>
+    const articles = [
+      { title: "Best portable power station for apartment balcony solar charging in winter", path: "../posts/best-portable-power-station-for-apartment-balcony-solar-charging-in-winter/" },
+      { title: "Airless pump bottle testing: PCR plastic vs aluminum for botanical vitamin C serum stability", path: "../posts/airless-pump-bottle-testing-pcr-plastic-vs-aluminum-for-botanical-vitamin-c-serum-stability/" },
+      { title: "Using smart collar activity data to detect early canine cognitive dysfunction (sundowning symptoms)", path: "../posts/using-smart-collar-activity-data-to-detect-early-canine-cognitive-dysfunction-sundowning-symptoms/" },
+      { title: "Vertical mouse vs trackball mouse for preventing de Quervain tenosynovitis in digital sculptors", path: "../posts/vertical-mouse-vs-trackball-mouse-for-preventing-de-quervain-tenosynovitis-in-digital-sculptors/" },
+      { title: "Immich vs Synology Photos: The ultimate 2026 self-hosted family photo replacement guide", path: "../posts/immich-vs-synology-photos-the-ultimate-2026-self-hosted-family-photo-replacement-guide/" },
+      { title: "How a solo plumber boosted booked jobs by 40% using a $29/mo missed-call text-back system", path: "../posts/how-a-solo-plumber-boosted-booked-jobs-by-40-using-a-29mo-missed-call-text-back-system/" },
+      { title: "How to deaden boxy room resonance in a 4x4 closet without spending $1,000 on panels", path: "../posts/how-to-deaden-boxy-room-resonance-in-a-4x4-closet-without-spending-1000-on-panels/" },
+      { title: "Wave scissors vs straight scissors: Preventing thumb cramp during dense Monte Carlo carpet trims", path: "../posts/wave-scissors-vs-straight-scissors-preventing-thumb-cramp-during-dense-monte-carlo-carpet-trims/" },
+      { title: "Fireproof and melt-point testing: Cryptosteel Capsule vs Billfodl titanium plates at 2,000°F", path: "../posts/fireproof-and-melt-point-testing-cryptosteel-capsule-vs-billfodl-titanium-plates-at-2000f/" },
+      { title: "How a solo bookkeeping business can achieve FTC Safeguards Rule compliance on a $50 monthly budget", path: "../posts/how-a-solo-bookkeeping-business-can-achieve-ftc-safeguards-rule-compliance-on-a-50-monthly-budget/" },
+      { title: "Hardware Security Keys vs SMS 2FA for Independent Contractor Banking Access", path: "../posts/hardware-security-keys-vs-sms-2fa-for-independent-contractor-banking-access/" }
+    ];
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const tbody = document.getElementById("dashTableBody");
+      articles.forEach(a => {
+        const tr = document.createElement("tr");
+        tr.className = "dash-row";
+        tr.style.borderBottom = "1px solid var(--border)";
+        tr.innerHTML = `
+          <td style="padding: 0.85rem 1rem; font-weight: 600;"><a href="${a.path}">${a.title}</a></td>
+          <td style="padding: 0.85rem 1rem;"><span style="background: rgba(74, 222, 128, 0.15); color: #4ade80; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 700;">techspecdiges-20</span></td>
+          <td style="padding: 0.85rem 1rem; text-align: right;"><a href="${a.path}" style="font-size: 0.8rem; font-weight: 600;">View Guide &rarr;</a></td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Search filter
+      document.getElementById('dashSearch')?.addEventListener('input', function(e) {
+        const q = e.target.value.toLowerCase().trim();
+        document.querySelectorAll('.dash-row').forEach(row => {
+          row.style.display = row.innerText.toLowerCase().includes(q) ? '' : 'none';
+        });
+      });
+
+      // Traffic Chart
+      new Chart(document.getElementById('trafficChart'), {
+        type: 'line',
+        data: {
+          labels: ['Aug W1', 'Aug W2', 'Aug W3', 'Aug W4', 'Sep (Est)', 'Oct (Est)'],
+          datasets: [{
+            label: 'Indexed Guides',
+            data: [10, 15, 25, 30, 42, 54],
+            borderColor: '#38bdf8',
+            backgroundColor: 'rgba(56, 189, 248, 0.1)',
+            fill: true, tension: 0.4
+          }, {
+            label: 'Est. Monthly Impressions',
+            data: [120, 450, 1200, 2800, 5600, 11200],
+            borderColor: '#818cf8',
+            backgroundColor: 'rgba(129, 140, 248, 0.05)',
+            fill: true, tension: 0.4
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { labels: { color: '#94a3b8' } } },
+          scales: {
+            x: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } },
+            y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } }
+          }
+        }
+      });
+
+      // Niche Chart
+      new Chart(document.getElementById('nicheChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Urban Power', 'Animator Ergo', 'Studio Voice', 'Crypto Vault', 'Pet Health', 'Self-Host', 'Trades Gear'],
+          datasets: [{
+            label: 'High-Ticket Item Target ($)',
+            data: [3500, 3499, 3695, 1199, 2999, 2299, 2999],
+            backgroundColor: 'rgba(251, 191, 36, 0.7)',
+            borderColor: '#fbbf24',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { labels: { color: '#94a3b8' } } },
+          scales: {
+            x: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } },
+            y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } }
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
