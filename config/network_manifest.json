@@ -9,7 +9,7 @@
       "name": "Urban Renters Portable Power & Battery Hub",
       "repo_name": "affiliate-urban-renter-power",
       "config_file": "config/niches/urban_renter_power.json",
-      "output_content_dir": "content/urban_renter_power/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "urbanrenterpower.github.io"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Solo Micro-Business Zero-Trust Cyber Security",
       "repo_name": "affiliate-solo-microbiz-security",
       "config_file": "config/niches/solo_microbiz_security.json",
-      "output_content_dir": "content/solo_microbiz_security/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "solomicrobizsecurity.github.io"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Digital Animator & Sculptor Ergonomic Gear",
       "repo_name": "affiliate-animator-ergonomics",
       "config_file": "config/niches/animator_ergonomics.json",
-      "output_content_dir": "content/animator_ergonomics/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "animatorergonomics.github.io"
     },
     {
@@ -33,7 +33,7 @@
       "name": "Indie Cosmetic Formulator Low-Waste Packaging",
       "repo_name": "affiliate-indie-cosmetic-packaging",
       "config_file": "config/niches/indie_cosmetic_packaging.json",
-      "output_content_dir": "content/indie_cosmetic_packaging/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "cosmeticpackaginghub.github.io"
     },
     {
@@ -41,7 +41,7 @@
       "name": "Senior Pet DNA & Smart Health Care",
       "repo_name": "affiliate-senior-pet-health",
       "config_file": "config/niches/senior_pet_health.json",
-      "output_content_dir": "content/senior_pet_health/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "seniorpethealthlab.github.io"
     },
     {
@@ -49,7 +49,7 @@
       "name": "Privacy-First Family Self-Hosting & Mini-PCs",
       "repo_name": "affiliate-family-selfhosting",
       "config_file": "config/niches/family_selfhosting.json",
-      "output_content_dir": "content/family_selfhosting/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "familyselfhost.github.io"
     },
     {
@@ -57,7 +57,7 @@
       "name": "Solo Tradespeople Missed-Call & Lead-Gen Automation",
       "repo_name": "affiliate-trades-leadgen",
       "config_file": "config/niches/trades_leadgen.json",
-      "output_content_dir": "content/trades_leadgen/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "tradesautomation.github.io"
     },
     {
@@ -65,7 +65,7 @@
       "name": "Closet Studio & Home Voice Actor Gear",
       "repo_name": "affiliate-closet-voice-studio",
       "config_file": "config/niches/closet_voice_studio.json",
-      "output_content_dir": "content/closet_voice_studio/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "closetvoicestudio.github.io"
     },
     {
@@ -73,7 +73,7 @@
       "name": "Micro-Aquascaping Ergonomic Maintenance Tools",
       "repo_name": "affiliate-micro-aquascaping-gear",
       "config_file": "config/niches/micro_aquascaping_gear.json",
-      "output_content_dir": "content/micro_aquascaping_gear/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "microaquascaping.github.io"
     },
     {
@@ -81,7 +81,7 @@
       "name": "Senior Crypto & NFT Hardware Cold Storage",
       "repo_name": "affiliate-crypto-cold-storage",
       "config_file": "config/niches/crypto_cold_storage.json",
-      "output_content_dir": "content/crypto_cold_storage/posts",
+      "output_content_dir": "content/posts",
       "target_domain": "cryptocoldstoragehub.github.io"
     }
   ]

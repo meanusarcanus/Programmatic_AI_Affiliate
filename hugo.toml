@@ -29,16 +29,6 @@ disableKinds = ["taxonomy", "term"]
 # Clean Permalinks Configuration
 [permalinks]
   posts = '/posts/:slug/'
-  solo_microbiz_security = '/posts/:slug/'
-  urban_renter_power = '/posts/:slug/'
-  animator_ergonomics = '/posts/:slug/'
-  indie_cosmetic_packaging = '/posts/:slug/'
-  senior_pet_health = '/posts/:slug/'
-  family_selfhosting = '/posts/:slug/'
-  trades_leadgen = '/posts/:slug/'
-  closet_voice_studio = '/posts/:slug/'
-  micro_aquascaping_gear = '/posts/:slug/'
-  crypto_cold_storage = '/posts/:slug/'
 
 # Outputs
 [outputs]
