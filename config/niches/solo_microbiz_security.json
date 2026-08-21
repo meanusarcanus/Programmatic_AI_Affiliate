@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "NordVPN / NordPass Teams",
-      "program": "CJ Affiliate / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://nordpass.com/business?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "NordPass Business Password Vault for Solo Operators",
         "NordVPN Dedicated IP for Remote Client Server Access",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Dashlane Business",
-      "program": "Impact",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.dashlane.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Dashlane Team Password & Secure Credential Manager",
         "Dashlane Dark Web Monitoring for Freelance Business Emails"
@@ -36,9 +36,9 @@
     },
     {
       "name": "Malwarebytes Endpoint Security",
-      "program": "FlexOffers / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.malwarebytes.com/business?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Malwarebytes Business Endpoint Protection for Laptops",
         "YubiKey 5 Series Zero-Trust Hardware 2FA Key"

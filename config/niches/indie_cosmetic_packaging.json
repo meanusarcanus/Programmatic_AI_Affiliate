@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "EcoEnclose",
-      "program": "ShareASale / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.ecoenclose.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "EcoEnclose 100% Recycled Padded Shipping Mailers",
         "Zero-Waste Water-Activated Custom Printed Shipping Tape",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Sustainable Packaging Wholesale",
-      "program": "Direct Affiliate Program",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.sustainablepackaging.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "PCR Ocean Plastic Airless Pump Serum Containers",
         "Compostable Paperboard Push-Up Deodorant Tubes",
@@ -37,9 +37,9 @@
     },
     {
       "name": "Shopify Sustainability Apps",
-      "program": "Shopify Partner Referral",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://apps.shopify.com/eco-returns?ref=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "EcoCart Carbon Neutral Checkout Integration for Shopify",
         "Loop Returns Reusable Packaging Platform for Beauty"

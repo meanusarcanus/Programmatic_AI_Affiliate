@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "Ledger Official",
-      "program": "Impact / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://shop.ledger.com?referral=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Ledger Flex Touchscreen Secure Element Hardware Wallet",
         "Ledger Stax Curved E-Ink Cold Storage Device",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Trezor Official",
-      "program": "ShareASale / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://trezor.io?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Trezor Safe 5 Secure Element Hardware Wallet",
         "Trezor Keep Metal 24-Word Stainless Steel Recovery Plate"
@@ -36,9 +36,9 @@
     },
     {
       "name": "Cryptosteel / Keystone / OneKey",
-      "program": "Direct Affiliate Program",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://cryptosteel.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Cryptosteel Capsule Solo Stainless Steel Master Backup",
         "Keystone Pro Air-Gapped Camera Hardware Wallet",

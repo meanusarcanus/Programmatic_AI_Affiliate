@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "Sweetwater",
-      "program": "Impact / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.sweetwater.com/store/detail/?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Rode NT1 5th Generation XLR/USB Studio Condenser Mic",
         "Focusrite Scarlett 2i2 4th Gen Audio Interface",
@@ -26,9 +26,9 @@
     },
     {
       "name": "B&H Photo Video",
-      "program": "Impact / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.bhphotovideo.com/c/product/?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Rode PSA1+ Professional Studio Boom Arm",
         "Auralex Acoustics Studiofoam Wedges 2-inch Panels",

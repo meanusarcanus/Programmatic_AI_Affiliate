@@ -36,9 +36,9 @@
     },
     {
       "name": "ProtonVPN / Tailscale / Mullvad",
-      "program": "Impact / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://protonvpn.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "ProtonVPN Dedicated IP for Secure Home Mesh VPN",
         "Mullvad VPN Privacy Router Configuration"

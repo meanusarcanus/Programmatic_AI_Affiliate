@@ -26,9 +26,9 @@
     },
     {
       "name": "Jackery",
-      "program": "ShareASale / Amazon Associates",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.jackery.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Jackery Explorer 1000 v2 Portable Generator",
         "Jackery Solar Generator 2000 Plus",
@@ -37,9 +37,9 @@
     },
     {
       "name": "Anker SOLIX",
-      "program": "Impact / Amazon Associates",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.anker.com/solix?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Anker SOLIX C1000 Portable Power Station",
         "Anker SOLIX Flexible Balcony Solar Kit",

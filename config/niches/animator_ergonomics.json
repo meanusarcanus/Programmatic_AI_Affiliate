@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "Logitech Ergonomics",
-      "program": "Amazon Associates / Impact",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.logitech.com/en-us/ergonomics?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Logitech MX Vertical Ergonomic Wireless Mouse",
         "Logitech Ergo K860 Split Keyboard for 3D Shortcuts",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Wacom / Ergotron",
-      "program": "Amazon Associates / Sweetwater / B&H",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.ergotron.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Ergotron LX Sit-Stand Monitor Arm for Wacom Cintiq 22",
         "Wacom Cintiq Pro Ergonomic Stand Extension",
@@ -37,9 +37,9 @@
     },
     {
       "name": "Herman Miller Reseller",
-      "program": "ShareASale / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://store.hermanmiller.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Herman Miller Embody Chair for Forward-Lean Sculpting",
         "Capisco Saddle Chair for Active 3D Animation Positioning"

@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "Embark Vet",
-      "program": "Impact / ShareASale",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://embarkvet.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Embark Vet Breed + Health DNA Screening Kit for Seniors",
         "Embark Dog Age Test Telomere Genetic Aging Assay"
@@ -25,9 +25,9 @@
     },
     {
       "name": "Fi Smart Collar / Whistle",
-      "program": "Impact",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://tryfi.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Fi Series 3 Smart GPS Collar with Sleep & Gait Analytics",
         "Whistle Health 2.0 Biometric Activity Monitor for Senior Dogs"
@@ -35,7 +35,7 @@
     },
     {
       "name": "Nutramax / Native Pet / Honest Paws",
-      "program": "Amazon Associates / CJ Affiliate",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.amazon.com/dp/B00028ZBEG?",
       "anchors": [

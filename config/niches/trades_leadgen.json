@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "GoHighLevel (GHL)",
-      "program": "FirstPromoter Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.gohighlevel.com?fp_ref=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "GoHighLevel Starter Account for Solo Contractor Automation",
         "HighLevel Missed-Call Text-Back Built-In Phone System"
@@ -25,9 +25,9 @@
     },
     {
       "name": "Make.com / Zapier",
-      "program": "PartnerStack / Impact",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://www.make.com?ref=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Make.com Automated SMS Lead Capture Workflow Blueprint",
         "Zapier Pro Instant Lead Notifications for Contractors"
@@ -35,9 +35,9 @@
     },
     {
       "name": "Jobber / Housecall Pro",
-      "program": "ShareASale / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://getjobber.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Jobber Mobile CRM for Independent Tradespeople",
         "Housecall Pro Dispatch & Auto-Invoicing App"

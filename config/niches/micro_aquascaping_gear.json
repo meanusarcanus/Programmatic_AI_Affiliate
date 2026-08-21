@@ -15,9 +15,9 @@
   "affiliates": [
     {
       "name": "Buce Plant / Specialty Aquarium Outlets",
-      "program": "Refersion / ShareASale",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
-      "base_url": "https://buceplant.com?aff=",
+      "base_url": "https://www.amazon.com/s?k=",
       "anchors": [
         "Buce Plant Stainless Steel Wave Scissors & Pinsette Set",
         "UNS Titan Premium Aquascaping Tool Set with Canvas Roll",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Chihiros / Twinstar / ONF Light Store",
-      "program": "Amazon Associates / Direct",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.amazon.com/dp/B08CSX3M5Q?",
       "anchors": [
@@ -37,7 +37,7 @@
     },
     {
       "name": "ADA / UNS Authorized Resellers",
-      "program": "Amazon Associates / CJ Affiliate",
+      "program": "Amazon Associates",
       "tracking_tag": "tag=techspecdiges-20",
       "base_url": "https://www.amazon.com/dp/B01N7T5O5W?",
       "anchors": [
