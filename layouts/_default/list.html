@@ -4,9 +4,12 @@
 </h1>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
-  {{ range .Pages }}
+  {{ range .Site.RegularPages }}
     <article style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
       <div>
+        <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">
+          {{ with .Params.categories }}{{ index . 0 }}{{ else }}Guide{{ end }}
+        </span>
         <h3 style="font-size: 1.15rem; margin: 0.5rem 0; font-weight: 700; line-height: 1.4;">
           <a href="{{ .RelPermalink }}" style="color: var(--text);">{{ .Title }}</a>
         </h3>
