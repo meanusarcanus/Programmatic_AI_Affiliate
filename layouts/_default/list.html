@@ -3,9 +3,13 @@
   {{ .Title }}
 </h1>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+<div style="margin-bottom: 2rem;">
+  <input type="text" id="guideSearch" placeholder="Search guides, products (e.g. YubiKey, EcoFlow, Tailscale)..." style="width: 100%; padding: 0.85rem 1.25rem; font-size: 1rem; border-radius: 8px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; margin-bottom: 1rem;">
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;" id="guidesGrid">
   {{ range .Site.RegularPages }}
-    <article style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+    <article class="guide-card" data-title="{{ .Title | lower }}" data-category="{{ with .Params.categories }}{{ index . 0 | lower }}{{ end }}" data-desc="{{ .Description | lower }}" style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
       <div>
         <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">
           {{ with .Params.categories }}{{ index . 0 }}{{ else }}Guide{{ end }}
@@ -24,4 +28,21 @@
     </article>
   {{ end }}
 </div>
+
+<script>
+  document.getElementById('guideSearch')?.addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase().trim();
+    const cards = document.querySelectorAll('.guide-card');
+    cards.forEach(card => {
+      const title = card.getAttribute('data-title') || '';
+      const cat = card.getAttribute('data-category') || '';
+      const desc = card.getAttribute('data-desc') || '';
+      if (title.includes(query) || cat.includes(query) || desc.includes(query)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
 {{ end }}

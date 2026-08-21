@@ -12,13 +12,16 @@
   {{ .Site.Params.affiliateDisclosure }}
 </div>
 
-<h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;">
-  Latest In-Depth Guides & Reviews
-</h2>
+<div style="margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+  <h2 style="font-size: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin: 0;">
+    Latest In-Depth Guides & Reviews
+  </h2>
+  <input type="text" id="homeSearch" placeholder="Search product guides (e.g. YubiKey, EcoFlow)..." style="padding: 0.6rem 1rem; font-size: 0.95rem; border-radius: 8px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; min-width: 280px;">
+</div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
-  {{ range where .Site.RegularPages "Type" "in" (slice "posts" "urban_renter_power" "solo_microbiz_security" "animator_ergonomics" "indie_cosmetic_packaging" "senior_pet_health" "family_selfhosting" "trades_leadgen" "closet_voice_studio" "micro_aquascaping_gear" "crypto_cold_storage") }}
-    <article style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s;">
+  {{ range .Site.RegularPages }}
+    <article class="home-guide-card" data-title="{{ .Title | lower }}" data-category="{{ with .Params.categories }}{{ index . 0 | lower }}{{ end }}" data-desc="{{ .Description | lower }}" style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s;">
       <div>
         <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">
           {{ with .Params.categories }}{{ index . 0 }}{{ else }}Guide{{ end }}
@@ -39,4 +42,21 @@
     <p style="color: var(--text-muted);">No guides published yet.</p>
   {{ end }}
 </div>
+
+<script>
+  document.getElementById('homeSearch')?.addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase().trim();
+    const cards = document.querySelectorAll('.home-guide-card');
+    cards.forEach(card => {
+      const title = card.getAttribute('data-title') || '';
+      const cat = card.getAttribute('data-category') || '';
+      const desc = card.getAttribute('data-desc') || '';
+      if (title.includes(query) || cat.includes(query) || desc.includes(query)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
 {{ end }}
