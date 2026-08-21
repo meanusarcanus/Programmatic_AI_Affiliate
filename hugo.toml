@@ -4,7 +4,7 @@ title = 'TechSpec Digest'
 
 # Performance & Rendering Settings
 enableRobotsTXT = true
-canonifyURLs = true
+canonifyURLs = false
 paginate = 10
 summaryLength = 40
 disableKinds = ["taxonomy", "term"]
